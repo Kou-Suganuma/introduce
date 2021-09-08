@@ -1,0 +1,47 @@
+body>article{
+    margin: 50px 100px;
+}
+
+h1,h2{text-align: center;
+}
+
+p {
+    text-align: center;
+}
+article>section {
+    border: solid 1px #fc0909;
+}    
+
+.title {
+    border: double 10px hsl(0, 98%, 51%);
+    background-color:#f8fc09;
+    background-clip:padding-box;
+ 
+}
+
+.ranking{
+    display: flex;
+    gap: 5px;
+    border: solid 5px #f8fc09;
+}
+.ranking1{
+    background-color: #f8fc09;
+    flex: 1 0 100px;
+}
+.ranking2{
+    background-color: #f8f;
+    flex: 1 0 100px;
+}
+
+/*span要素で開業を優先する*/
+span{
+    display: inline-block
+}
+
+/*文字フォント*/
+p,h1,h2{
+    font-size: 1rem;
+}
+
+
+    
