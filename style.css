@@ -1,16 +1,12 @@
-body>article{
-    margin: 50px 100px;
+body{
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-h1,h2{text-align: center;
+h1,h2,p,.result1,.result2{text-align: center;
 }
 
-p {
-    text-align: center;
-}
-article>section {
-    border: solid 1px #fc0909;
-}    
+
 
 .title {
     border: double 10px hsl(0, 98%, 51%);
@@ -19,18 +15,26 @@ article>section {
  
 }
 
-.ranking{
+.ranking,.ranking1,.ranking2{
     display: flex;
-    gap: 5px;
-    border: solid 5px #f8fc09;
+    /*gap: 5px;*/
+    border: solid 2px #f8fc09;
 }
-.ranking1{
+
+@media(max-width: 480px) {
+    .ranking{
+        display: block;
+    }
+
+}
+
+.explain1{
     background-color: #f8fc09;
-    flex: 1 0 100px;
+    flex: 1 0 1px;
 }
-.ranking2{
+.explain2{
     background-color: #f8f;
-    flex: 1 0 100px;
+    flex: 1 0 1px;
 }
 
 /*span要素で開業を優先する*/
@@ -42,6 +46,8 @@ span{
 p,h1,h2{
     font-size: 1rem;
 }
+
+
 
 
     
