@@ -3,7 +3,9 @@ body{
     margin: 0 auto;
 }
 
-h1,h2,p,.result1,.result2{text-align: center;
+h1,h2,p,.result1,.result2{
+    text-align: center;
+    margin: 0px;
 }
 
 
@@ -21,12 +23,7 @@ h1,h2,p,.result1,.result2{text-align: center;
     border: solid 2px #f8fc09;
 }
 
-@media(max-width: 480px) {
-    .ranking{
-        display: block;
-    }
 
-}
 
 .explain1{
     background-color: #f8fc09;
@@ -49,5 +46,11 @@ p,h1,h2{
 
 
 
+@media(max-width: 480px) {
+    .ranking,.ranking1,.ranking2{
+        display: block;
+        
+    }
 
+}
     
