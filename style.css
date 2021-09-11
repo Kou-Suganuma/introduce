@@ -62,6 +62,10 @@ html,body,.site_base{
     height:100%;
 }
 .site_base{
+    min-height: 100%;
+    height: auto;
+}
+.site_base{
     background-color:#F1F1F1;
 }
 .article{
