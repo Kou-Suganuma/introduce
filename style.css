@@ -11,28 +11,41 @@ body{
 
 
 .title {
-    border: double 10px hsl(0, 98%, 51%);
-    background-color:#f8fc09;
+    background-image: url('https://forum.cfo.jp/wp-content/uploads/2018/01/solution.jpg');
+    background-size:  100% 100%;
     background-clip:padding-box;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    font-family: "メイリオ";
  
 }
 
-.ranking,.ranking1,.ranking2{
-    display: flex;
-    /*gap: 5px;*/
-    border: solid 2px #f8fc09;
+.quiz,.quiz_ranking{
+    padding-right: 10px;
+}
+
+h2{
+    border-top:dotted  2px grey;
+    border-bottom: dotted 2px grey;
+    background-clip:padding-box;
+    background-color: #92e6ff;
+    padding: 10px 0;
+    color: white;
+    font-weight: 400;
+}
+.result1,.result2,ol{
+    background-color: rgb(255, 243, 255);
+    margin: 0px;
+}
+.ranking2{
+    margin-top:20px ;
 }
 
 
 
-.explain1{
-    background-color: #f8fc09;
-    flex: 1 0 1px;
-}
-.explain2{
-    background-color: #f8f;
-    flex: 1 0 1px;
-}
+
 
 /*span要素で開業を優先する*/
 span{
@@ -40,8 +53,16 @@ span{
 }
 
 /*文字フォント*/
-p,h1,h2{
-    font-size: 1rem;
+.update{
+    font-size: 10px;
+}
+.player{
+    font-size: 12px;
+    padding-left: 50px;
+}
+.num{
+    font-weight: bold;
+    color:red ;
 }
 
 
@@ -68,8 +89,22 @@ html,body,.site_base{
 .site_base{
     background-color:#F1F1F1;
 }
+
 .article{
     background:white;
     margin:50px 15px;
-    padding: 0 10px;
+    padding: 10px;
 }
+
+.comment{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.word_explain{
+    margin-top: 50px;
+}
+.rate,.charange{
+    margin-top: 10px;
+}
+
