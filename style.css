@@ -3,25 +3,38 @@ body{
     margin: 0 auto;
 }
 
-.title,h2,.result1,.result2{
+nav{
+    margin: 20px;
+}
+
+h2,.result1,.result2{
     text-align: center;
     margin: 0px;
 }
 
 
 
-.title {
-    background-image: url('https://forum.cfo.jp/wp-content/uploads/2018/01/solution.jpg');
-    background-size:  100% 100%;
-    background-clip:padding-box;
-    font-size: 18px;
-    padding: 20px;
+#title {
     margin-top: 20px;
-    color: white;
     font-family: "メイリオ";
- 
+    position: relative;
 }
 
+.background_img{
+    width: 100%;
+    height: 200px;
+}
+
+.title{
+    font-size: 180%;
+}
+.title_word{
+    position: absolute;
+    top: 0ex;
+    left: 50px;
+    color: white;
+
+}
 .quiz,.quiz_ranking{
     padding-right: 10px;
 }
@@ -56,10 +69,7 @@ span{
 .update{
     font-size: 10px;
 }
-.player{
-    font-size: 12px;
-    padding-left: 50px;
-}
+
 .num{
     font-weight: bold;
     color:red ;
@@ -68,11 +78,6 @@ span{
 
 
 @media(max-width: 480px) {
-    .ranking,.ranking1,.ranking2{
-        display: block;
-        
-    }
-
 }
     
 
@@ -107,4 +112,3 @@ html,body,.site_base{
 .rate,.charange{
     margin-top: 10px;
 }
-
