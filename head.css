@@ -2,7 +2,7 @@ h1{
   font-size: 20px;
 }
 body{
-  width: 375px;
+  width: 100%;
   font-family: Verdana, Roboto, "Droid Sans", "游ゴシック", YuGothic, "メイリオ", Meiryo, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ＭＳ Ｐゴシック", sans-serif;
 }
 
@@ -16,19 +16,18 @@ a:hover{
 
 .bgblue{
   background-color: #05f;
-  width: 375px;
+  width: 100%;
   height: 160px;
 }
 
 .bglblue{
   background-color: rgb(0, 36, 109);
   height: 180px;
-  width: 375px;
+  width: 100%;
 }
 
 .mg{
   margin-left: 20px;
-  margin-right: 20px;
 }
 
 
@@ -63,6 +62,7 @@ a:hover{
 
 .marg{
   margin-top: 10px;
+  margin-right: 20px;
 }
 
 
