@@ -1,14 +1,4 @@
-body{
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-nav{
-    margin: 20px;
-}
-
-h2,.result1,.result2{
-    text-align: center;
+h2{
     margin: 0px;
 }
 
@@ -30,12 +20,12 @@ h2,.result1,.result2{
 }
 .title_word{
     position: absolute;
-    top: 0ex;
+    top: 0px;
     left: 50px;
     color: white;
 
 }
-.quiz,.quiz_ranking{
+.quiz{
     padding-right: 10px;
 }
 
@@ -48,14 +38,16 @@ h2{
     color: white;
     font-weight: 400;
 }
-.result1,.result2,ol{
+.result1,.result2,.aaa{
     background-color: rgb(255, 243, 255);
     margin: 0px;
 }
-.ranking2{
-    margin-top:20px ;
+.ranking1{
+    width: 50%;
 }
-
+.ranking2{
+    width: 50%;
+}
 
 
 
@@ -90,8 +82,6 @@ html,body,.site_base{
 .site_base{
     min-height: 100%;
     height: auto;
-}
-.site_base{
     background-color:#F1F1F1;
 }
 
@@ -109,6 +99,8 @@ html,body,.site_base{
 .word_explain{
     margin-top: 50px;
 }
-.rate,.charange{
-    margin-top: 10px;
+
+.ranking{
+    display: flex;
 }
+

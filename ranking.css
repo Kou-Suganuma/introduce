@@ -1,0 +1,430 @@
+
+
+h2,.result1,.result2{
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+#title {
+    margin-top: 20px;
+    font-family: "メイリオ";
+    position: relative;
+}
+
+.background_img{
+    width: 100%;
+    height: 200px;
+}
+
+.title{
+    font-size: 200%;
+}
+.title_word{
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    color: white;
+	font-weight: 400;
+}
+
+.subtitle{
+	position: absolute;
+	top: 55px;
+	left: 55px;
+}
+.quiz,.quiz_ranking{
+    padding-right: 12px;
+}
+
+h2{
+    border-top:dotted  2px grey;
+    border-bottom: dotted 2px grey;
+    background-clip:padding-box;
+    background-color: #fa0;
+    padding: 12px 0;
+    color: white;
+    font-weight: 400;
+}
+.result1,.ranking2,ol{
+    background-color: white;
+    margin: 0px;
+}
+.ranking2,.ranking1{
+    width :50%;
+}
+
+
+
+
+
+/*span要素で開業を優先する*/
+span{
+    display: inline-block
+}
+
+/*文字フォント*/
+.update{
+    font-size: 12px;
+}
+
+.num{
+    font-weight: bold;
+    color:red ;
+}
+
+
+
+
+/*背景の色づけ*/
+html,body,.site_base{
+    height:100%;
+}
+.site_base{
+    min-height: 100%;
+    height: auto;
+}
+.site_base{
+    background-color:#F1F1F1;
+}
+
+.article{
+    background:white;
+    margin:0px;
+    padding: 0px 12px;
+}
+
+.comment{
+    margin-top: 12px;
+    text-align: center;
+
+}
+.word_explain{
+    margin-top: 50px;
+}
+
+
+.ranking{
+    display: flex;
+}
+.ranking1{
+    border-left:dotted  2px grey ;
+}
+
+.result1{
+    list-style: none;
+    margin: 0px;
+}
+
+
+
+
+
+
+.user_table{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.user_table li,.result1 li{
+	position: relative;
+	margin: 0;
+	padding: 0 0 0 16px;
+	border-bottom: 1px dotted #ccc;
+    font-size: 150%;
+}
+.user_table li::before{
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #d05;
+	content: "●";
+	font-size: 40px;
+}
+
+.user_table li:nth-child(4)::after{
+    position: absolute;
+	top: 12px;
+	left: 18px;
+	color: white;
+	content: "4";
+	font-size: 15px;
+}
+.user_table li:nth-child(5)::after{
+    position: absolute;
+	top: 12px;
+	left: 18px;
+	color: white;
+	content: "5";
+	font-size: 15px;
+}
+.user_table li:nth-child(6)::after{
+    position: absolute;
+	top: 12px;
+	left: 18px;
+	color: white;
+	content: "6";
+	font-size: 15px;
+}
+.user_table li:nth-child(7)::after{
+    position: absolute;
+	top: 12px;
+	left: 18px;
+	color: white;
+	content: "7";
+	font-size: 15px;
+}.user_table li:nth-child(8)::after{
+    position: absolute;
+	top: 12px;
+	left: 18px;
+	color: white;
+	content: "8";
+	font-size: 15px;
+}.user_table li:nth-child(9)::after{
+    position: absolute;
+	top: 12px;
+	left: 18px;
+	color: white;
+	content: "9";
+	font-size: 15px;
+}.user_table li:nth-child(10)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "10";
+	font-size: 15px;
+}.user_table li:nth-child(11)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "11";
+	font-size: 15px;
+}.user_table li:nth-child(12)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "12";
+	font-size: 15px;
+}.user_table li:nth-child(13)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "13";
+	font-size: 15px;
+}.user_table li:nth-child(14)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "14";
+	font-size: 15px;
+}.user_table li:nth-child(15)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "15";
+	font-size: 15px;
+}.user_table li:nth-child(16)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "16";
+	font-size: 15px;
+}.user_table li:nth-child(17)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "17";
+	font-size: 15px;
+}.user_table li:nth-child(18)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "18";
+	font-size: 15px;
+}.user_table li:nth-child(19)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "19";
+	font-size: 15px;
+}.user_table li:nth-child(20)::after{
+    position: absolute;
+	top: 12px;
+	left: 14px;
+	color: white;
+	content: "20";
+	font-size: 15px;
+}
+
+
+.user_table li:first-child::before,
+.user_table li:nth-child(2)::before,
+.user_table li:nth-child(3)::before{
+	position: absolute;
+	top: -15px;
+	left: 5px;
+	width: 0;
+	height: 0;
+	border: 18px solid transparent;
+	border-bottom: 30px solid #fb0;
+	content: "";
+}
+.user_table li:first-child::after,
+.user_table li:nth-child(2)::after,
+.user_table li:nth-child(3)::after{
+	position: absolute;
+	top: 9px;
+	left: 5px;
+	width: 0;
+	height: 0;
+	border: 18px solid #fb0;
+	border-top: 9px solid transparent;
+	border-bottom: 18px solid #f90;
+	content: "";
+}
+.user_table li:nth-child(2)::before{
+	border-bottom: 30px solid #ccc;
+}
+.user_table li:nth-child(2)::after{
+	border: 18px solid #ccc;
+	border-top: 9px solid transparent;
+	border-bottom: 18px solid #aaa;
+}
+.user_table li:nth-child(3)::before{
+	border-bottom: 30px solid #d98;
+}
+.user_table li:nth-child(3)::after{
+	border: 18px solid #d98;
+	border-top: 9px solid transparent;
+	border-bottom: 18px solid #c76;
+}
+
+
+.result1 li,.user_table li{
+	padding-top: 15px;
+	padding-bottom: 10px;
+	font-size: 5px;
+}
+
+
+  /*-------------------もっと見る　と　閉じる　の追加ー－－－－－－－－－－－－－－－－－*/
+  .grad-wrap,.grad_first {
+	position: relative;
+  }
+  .grad-wrap,.grad_first{
+	margin-top: 45px; 
+  }
+ 
+  .grad-btn,.grad-btn2,.grad-btn3{
+	z-index: 2;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 148px;
+	margin: auto;
+	padding: .5em 0;
+	border-radius: 2px;
+	background: #4a86ff;
+	color: #fff;
+	font-size: 1.3rem;
+	text-align: center;
+	cursor: pointer;
+	transition: .2s ease;
+	box-shadow: 0 0 3px rgba(0,0,0,.3);
+  }
+
+  .grad-item p + p {
+	margin-top: 1em;
+  }
+  .grad-btn::before {
+	content: "もっと見る"
+  }
+
+ .grad-btn2::before{
+	content:"スコア"
+ }
+ .grad-btn3::before{
+	content:"一人用ルール"
+ }
+
+
+  .grad-item ,
+  .grad-item2,
+  .grad-item3{
+	position: relative;
+	overflow: hidden;
+	height: 0px; /*隠した状態の高さ*/
+  }
+  .grad-item::before {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px; /*グラデーションで隠す高さ*/
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+	background: linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 50%, rgba(255,255,255,0.9) 50%, #fff 100%);
+	content: "";
+  }
+
+  .grad-trigger:checked ~ .grad-btn::before,
+  .grad-trigger2:checked ~ .grad-btn2::before,
+  .grad-trigger3:checked ~ .grad-btn3::before{
+	content: "閉じる" /*チェックされていたら、文言を変更する*/
+  } 
+  
+  .grad-trigger,
+  .grad-trigger2,
+  .grad-trigger3 {
+	display: none; /*チェックボックスは常に非表示*/
+  }
+  .grad-trigger:checked ~ .grad-item,
+  .grad-trigger2:checked ~ .grad-item2,
+  .grad-trigger3:checked ~ .grad-item3 {
+	height: auto; /*チェックされていたら、高さを戻す*/
+	margin-bottom: 90px;
+}
+  .grad-trigger:checked ~ .grad-item::before,
+  .grad-trigger2:checked ~ .grad-item2::before,
+  .grad-trigger3:checked ~ .grad-item3::before {
+	display: none; /*チェックされていたら、grad-itemのbeforeを非表示にする*/}
+
+.grad-trigger:checked ~ .grad-btn,
+.grad-trigger2:checked ~ .grad-btn2,
+.grad-trigger3:checked ~ .grad-btn3 {
+	bottom: -2em;
+}
+
+
+
+/*----------------------追加のランキングリスト----------------------*/
+.extra-score-list,.extra-list-player{
+	text-align: center;
+    width :50%;
+	background-color: rgb(255, 243, 255);
+    margin: 0px;
+	font-size: 5px;
+}
+.grad-item{
+	display: flex;
+}
+.extra-score-list {
+    border-left: dotted  1px grey ;
+}
+
+.extra-list-player li,.extra-score-list li{
+	padding: 10px 0px;
+}
+
